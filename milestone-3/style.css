@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Acme', sans-serif;
+  color: #29B1DD;
+}
+
+.nav{
+  background-color: #29B1DD;
+  height: 100px;
+}
+
+.main-content{
+  background-color: #DDDDDD;
+  font-family: 'Rubik', sans-serif;
+}
+
+.box{
+  float: left;
+  height: 150px;
+  margin: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+i{
+  font-size: 25px;
+}
+
+.orange{
+  color: orange;
+}
+
+.green{
+  color: green;
+}
+
+.blue{
+  color: blue;
+}
