@@ -5,6 +5,7 @@
 }
 
 h1{
+  font-size: 60px;
   font-family: 'Acme', sans-serif;
   color: #29B1DD;
 }
@@ -15,13 +16,17 @@ h1{
 }
 
 .main-content{
-  height: 800px;
   background-color: #DDDDDD;
 }
 
 .box{
+  float: left;
   height: 150px;
   margin: 25px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+i{
+  font-size: 25px;
 }

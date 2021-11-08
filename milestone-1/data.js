@@ -1,4 +1,4 @@
-[
+const containerBox = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -112,3 +112,15 @@
 		color: 'blue'
 	}
 ];
+
+const container = document.querySelector(".main-content");
+
+containerBox.forEach(element => {
+  const name = element.name.toUpperCase();
+  container.innerHTML += `
+		<div class="box d-flex justify-content-center align-items-center flex-column clearfix col-2 shadow p-3 mb-5 bg-body rounded">
+			<i class="${element.family} ${element.prefix}${element.name} block"></i>
+			<span>${name}</span> 
+		</div>
+  `; 
+});
