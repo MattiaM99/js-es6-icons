@@ -13,3 +13,15 @@ h1{
   background-color: #29B1DD;
   height: 100px;
 }
+
+.main-content{
+  height: 800px;
+  background-color: #DDDDDD;
+}
+
+.box{
+  height: 150px;
+  margin: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
